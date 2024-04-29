@@ -1,4 +1,3 @@
 db.reactions.aggregate([
-    { $sample: { size: 3 } }    
-
+   {$sample: { size: 3 }}
 ])
